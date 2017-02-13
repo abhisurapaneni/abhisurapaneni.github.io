@@ -49,6 +49,14 @@ h1 {
   color: #222222;
 }
 
-div {
+#whatisir {
+  padding-top: 28px;
+}
+
+#aboutus {
+  padding-top: 28px;
+}
+
+#services {
   padding-top: 28px;
 }
