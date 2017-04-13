@@ -1,15 +1,12 @@
 .jumbotron {
     position: relative;
-    background-color: #8A2BE2;
-    background: url("wilsonnfrared.png") center center;
     width: 100%;
     height: 100%;
     background-size: 100% 100%;
     overflow: hidden;
 }
 
-
-.jumbotron { min-height: 375px; }
+/*.jumbotron { min-height: 375px; }*/
 
 .navbar-brand {
   font-size: 20px;
@@ -18,9 +15,8 @@
   color: #339966;
 }
 
-
-.service-h4 {
-  font-size: 100px;
+body {
+  padding-top: 40px;
 }
 
 .carousel-inner{
@@ -30,17 +26,20 @@
 
 .widewrapper {
   width:100%;
-  }
+}
 
 .widewrapper > img {
   width:100%;
+}
+
+p {
+  font-size: 17px;
 }
 
 .aboutus-p {
   font-size: 15px;
   font-family:verdana;
 }
-
 
 h1 {
   font-family: "Palatino Linotype";
@@ -49,6 +48,15 @@ h1 {
   color: #222222;
 }
 
-#whatisir, #aboutus, #services, #contact{
-  padding-top: 28px;
+/* for elements to not hide under navbar when scrolled*/
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}
+
+.highlight{
+  background-color: "yellow";
 }
