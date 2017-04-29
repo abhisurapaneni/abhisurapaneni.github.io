@@ -1,3 +1,4 @@
+
 //Increase the size of object when hovered
 $(document).ready(function() {
    $('#a1, #a2, #a3').mouseenter(function() {
